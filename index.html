@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinemark</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="../logo.png" width="320px">
+        <div class="filme-container">
+            <label>Selecione um filme: </label>
+            <select class="seletor-filme">
+                <option value="45">Barbie (R$45)</option>
+                <option value="20">Aquaman (R$20)</option>
+                <option value="15">Deadpool (R$15)</option>
+                <option value="10">Intocáveis (R$10)</option>
+                <option value="22">Hancock (R$22)</option>
+            </select>
+        </div>
+
+        <div class="show">
+            <div class="tela1">
+                <div class="tela"></div>
+            </div>
+            <div class="linha">
+                <div class="cadeira"></div>
+                <div class="cadeira"></div>
+                <div class="cadeira"></div>
+                <div class="cadeira"></div>
+                <div class="cadeira ocupada"></div>
+                <div class="cadeira ocupada"></div>
+                <div class="cadeira"></div>
+                <div class="cadeira"></div>
+            </div>
+            <div class="linha">
+                <div class="cadeira"></div>
+                <div class="cadeira"></div>
+                <div class="cadeira"></div>
+                <div class="cadeira"></div>
+                <div class="cadeira"></div>
+                <div class="cadeira"></div>
+                <div class="cadeira"></div>
+                <div class="cadeira"></div>
+            </div>
+            <div class="linha">
+                <div class="cadeira"></div>
+                <div class="cadeira"></div>
+                <div class="cadeira"></div>
+                <div class="cadeira"></div>
+                <div class="cadeira"></div>
+                <div class="cadeira ocupada"></div>
+                <div class="cadeira"></div>
+                <div class="cadeira"></div>
+            </div>
+            <div class="linha">
+                <div class="cadeira"></div>
+                <div class="cadeira"></div>
+                <div class="cadeira"></div>
+                <div class="cadeira ocupada"></div>
+                <div class="cadeira ocupada"></div>
+                <div class="cadeira"></div>
+                <div class="cadeira"></div>
+                <div class="cadeira"></div>
+            </div>
+            <div class="linha">
+                <div class="cadeira"></div>
+                <div class="cadeira"></div>
+                <div class="cadeira"></div>
+                <div class="cadeira"></div>
+                <div class="cadeira"></div>
+                <div class="cadeira"></div>
+                <div class="cadeira"></div>
+                <div class="cadeira"></div>
+            </div>
+            <div class="linha">
+                <div class="cadeira"></div>
+                <div class="cadeira"></div>
+                <div class="cadeira"></div>
+                <div class="cadeira"></div>
+                <div class="cadeira"></div>
+                <div class="cadeira"></div>
+                <div class="cadeira"></div>
+                <div class="cadeira"></div>
+            </div>
+        </div>
+    
+        <ul class="estados">
+            <li>
+                <div class="cadeira"></div>
+                <small>Disponível</small>
+            </li>
+            <li>
+                <div class="cadeira selecionada"></div>
+                <small>Selecionado</small>
+            </li>
+            <li>
+                <div class="cadeira ocupada"></div>
+                <small>Ocupado</small>
+            </li>
+        </ul>
+
+        <p class="text">Você selecionou <span class="qntIngressos">0</span> ingressos com o preço total de <span style="color: #f7b100;">R$</span><span class="totalIngresso">0</span>.</p>
+    </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
